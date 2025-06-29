@@ -21,8 +21,8 @@ th,td{border:1px solid #bbb;padding:.3rem .55rem;word-break:break-all}
   <label>Year*  <input id="yr"  type="number" min="1997" max="2025" required></label>
   <label>Month  <input id="mo"  type="number" min="1" max="12" placeholder="(optional)"></label>
   <label>Day    <input id="dy"  type="number" min="1" max="31" placeholder="(optional)"></label>
-  <label>Latitude (°)  <input id="lat" type="number" step="0.1" placeholder="(optional)"></label>
-  <label>Longitude (°) <input id="lon" type="number" step="0.1" placeholder="(optional)"></label>
+  <label>Latitude (°)  <input id="lat" type="number" min="-90" max="90" placeholder="(optional)"></label>
+  <label>Longitude (°) <input id="lon" type="number" min="0" max="360" placeholder="(optional)"></label>
   <button>Search</button>
 </form>
 
